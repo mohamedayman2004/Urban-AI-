@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #0E2A47;
+    --color-primary-hover: #153A5F;
+    --color-surface: #FFFFFF;
+    --color-bg: #F7F9FC;
+    --color-border: #E3E8F0;
+    --color-text-heading: #16233B;
+    --color-text-body: #5B6B82;
+    --color-accent-teal: #1F9D6D;
+    --color-accent-amber: #DC8A1E;
+    --color-accent-red: #D64545;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text-body);
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-text-heading);
+    font-family: 'Almarai', sans-serif;
+}

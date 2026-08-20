@@ -1,0 +1,30 @@
+# Python
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+backend/.env
+.env
+
+# Database (optional - ignore or keep starter db)
+*.sqlite3
+
+# Node / React
+urban_ai_frontend/node_modules/
+node_modules/
+urban_ai_frontend/dist/
+dist/
+urban_ai_frontend/.env.local
+urban_ai_frontend/.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
